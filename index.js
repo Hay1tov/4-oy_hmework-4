@@ -172,10 +172,80 @@
 
 
 //                                      No_12
+
+
+// const getReverseNumber = (n) => {
+//   let reverse = ''
+//   let birlik = 0
+//   while(n != 0) {
+//     birlik = n % 10
+//     reverse += birlik
+//     n = Math.floor(n / 10)
+//   }
+//   return reverse
+// }
+
+// console.log(getReverseNumber(12345));
+
+
 //                                      No_13
+
+
+// function calc(expr) {
+//   let parts = expr.split(" ");
+//   let result = parseInt(parts[0]);
+
+//   for (let i = 1; i < parts.length; i += 2) {
+//     let op = parts[i];
+//     let num = parseInt(parts[i + 1]);
+//     if (op === "+") {
+//       result += num;
+//     } else if (op === "-") {
+//       result -= num;
+//     }
+//   }
+//   return result;
+// }
+
+// console.log(calc("70 + 30 - 50"));
+
+
 //                                      No_14
+
+
+// function mergeStrings(S1, S2, N1, N2) {
+//   let part1 = S1.slice(0, N1);
+//   let part2 = S2.slice(S2.length - N2);
+//   return part1 + part2;
+// }
+
+// console.log(mergeStrings("Salom", "Dunyo", 3 , 2));
+
+
 //                                      No_15
+
+
+// function satr(C, S) {
+//   let result = '';
+
+//   for (let i = 0; i < S.length; i++) {
+//     if (S[i] === C) {
+//       result += C + C;
+//     } else {
+//       result += S[i];
+//     }
+//   }
+//   return result;
+// }
+
+// console.log(satr('a', 'ali vali'));
+
+
 //                                      No_16
+
+
+
+
 //                                      No_17
 //                                      No_18
 //                                      No_19
