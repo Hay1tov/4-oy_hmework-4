@@ -244,19 +244,184 @@
 //                                      No_16
 
 
+// function newText(S1, S2, C) {
+//   let result = ''
+//   for (const harf of S1) {
+//     if(harf === C) {
+//       result += S2 
+//     }
+//     result += harf 
+//   }
+//   return result
+
+// }
+
+// console.log(newText('dunydo', 'salom', 'd'));
 
 
 //                                      No_17
+
+
+// function isRepeat(S1, S2) {
+//   let count = 0
+//   S1 = S1.split(" ")
+//   for(const value of S1) {
+//     if(value == S2) {
+//       count++
+//     }
+//   }
+//   return `${count} ta bor`
+// }
+
+// console.log(isRepeat('nima gap nima nima', 'nima'));
+
+
 //                                      No_18
+
+
+// function isDeleteWord(S1, S2) {
+//   return S1.replace(S2, "");
+// }
+
+// console.log(isDeleteWord("Hello world ", "world"));
+
+
 //                                      No_19
+
+
+// function isDeleteALlWord(S1, S2) {
+//   return S1.replaceAll(S2, "");
+// }
+
+// console.log(isDeleteWord("Hello world Hello world Hello world Hello world", "world"));
+
+
 //                                      No_20
+
+// function isReplace(S1, S2, S3) {
+//   return S1.replace(S2, S3);
+// }
+
+// console.log(isReplace("Hello world", "world", "dunyo"));
+
+
 //                                      No_21
+
+
+// function replaceLastOccurrence(S1, S2, S3) {
+//   let lastIndex = S1.lastIndexOf(S2);
+
+//   if (lastIndex === -1) {
+//     return S1;
+//   }
+
+//   return S1.slice(0, lastIndex) + S3 + S1.slice(lastIndex + S2.length);
+// }
+
+// console.log(replaceLastOccurrence("Hello world Hello world", "world", "dunyo"));
+
+
 //                                      No_22
+
+
+// function countSameStartEndWords(N) {
+//   N = N.split(" ");
+//   let count = 0;
+
+//   for (let value of N) {
+//     if (value.charAt(0) === value.charAt(value.length - 1)) {
+//       count++;
+//     }
+//   }
+
+//   return `${count} ta`
+// }
+
+// console.log(countSameStartEndWords('QOSHIQ OLMA ALANGA QIYSHIQ'));
+
+
 //                                      No_23
+
+
+// function isCountLetterA(N) {
+//   let count = 0;
+//   N = N.split(" ")
+
+//   for (let word of N) {
+//     let aCount = 0;
+//     for (let char of word) {
+//       if (char === "A") {
+//         aCount++;
+//       }
+//     }
+//     if (aCount === 2) {
+//       count++;
+//     }
+//   }
+//   return `${count} ta`
+// }
+// console.log(isCountLetterA('TANA TALIM  BALAND'));
+
+
 //                                      No_24
+
+
+// function getMaxOfString(str) {
+//   str = str.split(" ")
+//   let max = str[0]
+
+//   for (let word of str) {
+//     if (word.length > max.length) {
+//       max = word;
+//     }
+//   }
+//   return max
+// }
+
+// console.log(getMaxOfString('Qachon futbolga boramiz?'));
+
+
 //                                      No_25
+
+
+// const joinWithDot = str => str.replaceAll(" ", ".")
+
+// console.log(joinWithDot("qachon futbolga boramiz"));
+
+
 //                                      No_26
+
+
+// function toCapitalize(str) {
+//   return str
+//     .split(" ")
+//     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+//     .join(" ");
+// }
+
+// let text = "Qachon futbolga boramiz";
+// console.log(toCapitalize(text));
+
+
 //                                      No_27
+
+
+// function countPunctuation(str) {
+//   let marks = [".", ",", ";", ":", "?", "!", "-", "'", '"', "(", ")"];
+//   let count = 0;
+
+//   for (let char of str) {
+//     if (marks.includes(char)) {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+
+// let text = "Qachon, futbolga. Boramiz?!!";
+// console.log(countPunctuation(text));
+
+
 //                                      No_28
 //                                      No_29
 //                                      No_30
