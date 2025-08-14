@@ -423,5 +423,23 @@
 
 
 //                                      No_28
+
+
+// function getFileName(file) {
+//   return file.split('/').pop().split('.')[0];
+// }
+
+// console.log(getFileName("D:/Qudrat_c++/books/My_book.exe"));
+
+
 //                                      No_29
+
+
+// function getExtension(extension) {
+//   return extension.split('/').pop().split('.')[1];
+// }
+
+// console.log(getExtension("D:/Qudrat_c++/books/My_book.exe"));
+
+
 //                                      No_30
